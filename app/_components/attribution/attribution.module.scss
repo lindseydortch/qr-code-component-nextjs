@@ -1,0 +1,10 @@
+@use "@/app/_styles/variables" as *;
+
+.attribution {
+  font-size: 1.1rem;
+  text-align: center;
+
+  a {
+    color: hsl(228, 45%, 44%);
+  }
+}
