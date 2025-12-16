@@ -22,7 +22,9 @@ export default function RootLayout({ children }) {
       </head>
       <body className={`${outfit.variable}`}>
         <main>{children}</main>
-        <Attribution />
+        <footer>
+          <Attribution />
+        </footer>
       </body>
     </html>
   );
