@@ -1,13 +1,14 @@
 import styles from "@/app/_components/attribution/attribution.module.scss";
+import Link from "next/link";
 
 function Attribution() {
   return (
-    <div class="attribution">
+    <div className={styles.attribution}>
       Challenge by{" "}
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+      <Link href="https://www.frontendmentor.io?ref=challenge" target="_blank">
         Frontend Mentor
-      </a>
-      . Coded by <a href="https://alorscreative.com/">Lindsey Dortch</a>.
+      </Link>{" "}
+      | Coded by <Link href="https://alorscreative.com/">Lindsey Dortch</Link>.
     </div>
   );
 }
