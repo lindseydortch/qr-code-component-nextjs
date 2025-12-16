@@ -20,6 +20,7 @@ $bp-mobile: 23.4375em; // 375px
   font-weight: 700;
   font-size: 2.2rem;
   line-height: 1.2;
+  text-align: center;
 }
 
 @mixin textPresetRegular() {
@@ -27,4 +28,5 @@ $bp-mobile: 23.4375em; // 375px
   font-size: 1.5rem;
   line-height: 1.4;
   letter-spacing: 0.02rem;
+  text-align: center;
 }

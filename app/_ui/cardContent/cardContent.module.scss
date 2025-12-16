@@ -1,0 +1,14 @@
+@use "@/app/_styles/variables" as *;
+
+.content {
+  h1 {
+    @include textPresetBold();
+    color: $slate900;
+    margin-bottom: $spacing-sm;
+  }
+
+  p {
+    @include textPresetRegular();
+    color: $slate500;
+  }
+}

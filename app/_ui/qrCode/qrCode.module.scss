@@ -1,0 +1,9 @@
+@use "@/app/_styles/variables" as *;
+
+.qrCodeImageContainer {
+  position: relative;
+  width: 28.8rem;
+  height: 28.8rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
